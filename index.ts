@@ -8,7 +8,7 @@ import router from './src/routes';
 const app = express();
 
 const example = function(){
-    console.log("estoy a la escucha");
+    console.log("Escuchando");
 }
 
 router(app);
